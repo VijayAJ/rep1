@@ -33,7 +33,6 @@ namespace Test
     [TestFixture()]
     public class DDTest
     {
-        //Test layer
         public DDTest()
         {
         }
