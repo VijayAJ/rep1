@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee0240db-83b4-46f2-808c-e7066aea58a2" name="P7108318@BLR-P7108318 2012-09-11 15:50:35" runUser="NESSINBLR\P7108318" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b8d8ef6b-9d2d-4d2c-88fd-25454d21e099">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="P7108318_BLR-P7108318 2012-09-11 15_50_35">
+      <DeploymentItem filename="D:\webdriver\net35\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\Castle.Core.dll" />
+      <DeploymentItem filename="D:\selenium-remote-control-1.0.3\selenium-dotnet-client-driver-1.0.1\nunit.core.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\WebDriver.dll" />
+      <DeploymentItem filename="D:\selenium-remote-control-1.0.3\selenium-dotnet-client-driver-1.0.1\nunit.framework.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\Ionic.Zip.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="D:\selenium-remote-control-1.0.3\selenium-dotnet-client-driver-1.0.1\nmock.dll" />
+      <DeploymentItem filename="D:\webdriver\net35\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-11T15:50:35.7594687+05:30" queuing="2012-09-11T15:50:37.9522721+05:30" start="2012-09-11T15:50:38.3422726+05:30" finish="2012-09-11T15:51:58.3436337+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TheDDScenario1Test" storage="c:\users\p7108318\documents\visual studio 2010\projects\datadriverproject\bin\debug\datadriverproject.dll" id="ab39525b-2cf5-4268-8733-ce66a79e31d4">
+      <Execution id="d023ec63-6b49-48ed-af2c-0c3bce9bb0f9" />
+      <TestMethod codeBase="C:/Users/P7108318/Documents/Visual Studio 2010/Projects/DataDriverProject/bin/Debug/DataDriverProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DataDriverProject.DDTest, DataDriverProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheDDScenario1Test" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ab39525b-2cf5-4268-8733-ce66a79e31d4" executionId="d023ec63-6b49-48ed-af2c-0c3bce9bb0f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d023ec63-6b49-48ed-af2c-0c3bce9bb0f9" testId="ab39525b-2cf5-4268-8733-ce66a79e31d4" testName="TheDDScenario1Test" computerName="BLR-P7108318" duration="00:01:17.0797156" startTime="2012-09-11T15:50:38.7022731+05:30" endTime="2012-09-11T15:51:58.0472332+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d023ec63-6b49-48ed-af2c-0c3bce9bb0f9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

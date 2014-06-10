@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\P7108318\Documents\Visual Studio 2010\Projects\DataDriverProject\bin\Debug\Project1.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-12" time="14:14:58">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.4971" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\NUnit-2.6.1\bin" machine-name="BLR-P7108318" user="P7108318" user-domain="NESSINBLR" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\P7108318\Documents\Visual Studio 2010\Projects\DataDriverProject\bin\Debug\Project1.nunit" executed="True" result="Failure" success="False" time="9.980" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\P7108318\Documents\Visual Studio 2010\Projects\DataDriverProject\bin\Debug\DataDriverProject.dll" executed="True" result="Failure" success="False" time="9.965" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="9.965" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="DDTest" executed="True" result="Failure" success="False" time="9.965" asserts="0">
+                <results>
+                  <test-case name="Test.DDTest.TheDDScenario1Test" executed="True" result="Error" success="False" time="9.856" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.Runtime.InteropServices.COMException : 'C:\Users\P7108318\AppData\Local\Temp\nunit20\ShadowCopyCache\3468_634830560792088902\Tests_12025118\assembly\dl3\47a8b082\d104b8ae_c290cd01\DataDriverProject.DLLResource\DD_test_data.xls' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.]]></message>
+                      <stack-trace><![CDATA[at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+at Library.GeneralLibrary.Readdata(String fpath, Int32 sheetno, Int32 row, Int32 col) in C:\Users\P7108318\Documents\Visual Studio 2010\Projects\DataDriverProject\Library\GeneralLibrary.cs:line 86
+at Test.DDTest.TheDDScenario1Test() in C:\Users\P7108318\Documents\Visual Studio 2010\Projects\DataDriverProject\DDTest.cs:line 68
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
